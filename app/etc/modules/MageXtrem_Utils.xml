@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MageXtrem_Utils>
+            <active>true</active>
+            <codePool>local</codePool>
+        </MageXtrem_Utils>
+    </modules>
+</config>

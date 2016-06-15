@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MageXtrem_Utils>
+            <version>0.1.0</version>
+        </MageXtrem_Utils>
+    </modules>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <utils before="Mage_Adminhtml">MageXtrem_Utils_Adminhtml</utils>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+    <global>
+        <helpers>
+            <magextrem_utils>
+                <class>MageXtrem_Utils_Helper</class>
+            </magextrem_utils>
+        </helpers>
+        <models>
+            <magextrem_utils>
+                <class>MageXtrem_Utils_Model</class>
+            </magextrem_utils>
+        </models>
+    </global>
+    <default>
+        <magextrem_utils>
+            <environment>
+                <local_address>127.0.0.1</local_address>
+            </environment>
+            <mail>
+                <debug>1</debug>
+            </mail>
+        </magextrem_utils>
+    </default>
+</config>
