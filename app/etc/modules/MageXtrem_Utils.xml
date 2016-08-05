@@ -3,7 +3,7 @@
     <modules>
         <MageXtrem_Utils>
             <active>true</active>
-            <codePool>local</codePool>
+            <codePool>community</codePool>
         </MageXtrem_Utils>
     </modules>
 </config>
